@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Trigger jobparser",
+    "schedule": "0 3 * * *",
+    "url": "http://jobparser:8080/run"
+  }
+]

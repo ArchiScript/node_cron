@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  scraper:
+    image: ghcr.io/archiscript/node_cron:latest
+    networks:
+      - ht-net
+    secrets:
+      - ghcr_token
+    deploy:
+      replicas: 1
+secrets:
+  ghcr_token:
+    external: true
+
+networks:
+  ht-net:
+    external: true
