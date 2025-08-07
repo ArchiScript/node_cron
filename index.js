@@ -7,7 +7,7 @@ const jobs = JSON.parse(fs.readFileSync('./jobs.json', 'utf8'));
 
 jobs.forEach(job => {
   if (!cron.validate(job.schedule)) {
-    console.error(`[ERROR] Invalid cron expression: ${job.schedule} in job "${job.name}"`);
+    console.error(`[ERROR] Invalid cron  expression: ${job.schedule} in job "${job.name}"`);
     return;
   }
 
