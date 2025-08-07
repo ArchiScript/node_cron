@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   scraper:
-    image: ghcr.io/archiscript/cronjobs_container:latest
+    image: ghcr.io/archiscript/cronjobs-container:latest
     networks:
       - ht-net
     secrets:
