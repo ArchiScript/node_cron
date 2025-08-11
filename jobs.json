@@ -2,6 +2,6 @@
   {
     "name": "Trigger makler node parser",
     "schedule": "*/10 * * * *",
-    "url": "http://makler-nodeparser:8081/run"
+    "url": "http://makler-nodeparser:8080/run"
   }
 ]
