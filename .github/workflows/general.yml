@@ -6,7 +6,8 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: cronjobs-container
+  IMAGE_NAME: docker-cronjobs
+  
 
 jobs:
   docker:

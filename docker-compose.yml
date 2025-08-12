@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   scraper:
-    image: ghcr.io/archiscript/cronjobs-container:latest
+    image: ghcr.io/${USER_NAME_LC}/docker-cronjobs:latest
     networks:
       - ht-net
     secrets:
