@@ -5,14 +5,8 @@ services:
     image: ghcr.io/${USER_NAME_LC}/docker-cronjobs:latest
     networks:
       - ht-net
-    secrets:
-      - ghcr_token
     deploy:
       replicas: 1
-secrets:
-  ghcr_token:
-    external: true
-
 networks:
   ht-net:
     external: true
