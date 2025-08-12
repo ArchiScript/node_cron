@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  scraper:
+  nodecron:
     image: ghcr.io/${USER_NAME_LC}/docker-cronjobs:latest
     networks:
       - ht-net
